@@ -21,6 +21,7 @@
 		DBCD0AF4192C104D00CD5D6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCD0AD6192C104D00CD5D6E /* UIKit.framework */; };
 		DBCD0AFC192C104D00CD5D6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBCD0AFA192C104D00CD5D6E /* InfoPlist.strings */; };
 		DBCD0AFE192C104D00CD5D6E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD0AFD192C104D00CD5D6E /* Git_TestTests.m */; };
+		DBCD0B09192C11C700CD5D6E /* RWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD0B08192C11C700CD5D6E /* RWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DBCD0AF9192C104D00CD5D6E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		DBCD0AFB192C104D00CD5D6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBCD0AFD192C104D00CD5D6E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DBCD0B07192C11C700CD5D6E /* RWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTest.h; sourceTree = "<group>"; };
+		DBCD0B08192C11C700CD5D6E /* RWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				DBCD0AE8192C104D00CD5D6E /* RWViewController.m */,
 				DBCD0AEA192C104D00CD5D6E /* Images.xcassets */,
 				DBCD0AD9192C104D00CD5D6E /* Supporting Files */,
+				DBCD0B07192C11C700CD5D6E /* RWTest.h */,
+				DBCD0B08192C11C700CD5D6E /* RWTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCD0B09192C11C700CD5D6E /* RWTest.m in Sources */,
 				DBCD0ADF192C104D00CD5D6E /* main.m in Sources */,
 				DBCD0AE9192C104D00CD5D6E /* RWViewController.m in Sources */,
 				DBCD0AE3192C104D00CD5D6E /* RWAppDelegate.m in Sources */,
